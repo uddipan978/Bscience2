@@ -39,7 +39,7 @@ function Farm() {
     >
       <img src={Bg} className="img_bg" />
 
-      <Grid item xs={6}>
+      <Grid item xs={6} style={{ zIndex: 999 }} >
         <p className={styles.textStyle}>
           YFScience is a new generation decentralised platform that enables
           different features for staking, lending, trading and coinvesting. YFSI
@@ -47,7 +47,7 @@ function Farm() {
           on-chain decision making model.
         </p>
       </Grid>
-      <Grid item container xs={12} justify="space-around">
+      <Grid item container xs={12} justify="space-around" style={{ zIndex: 999 }}>
         <Grid item xs={12}>
           <button className={styles.buttonCenter}> Farm </button>
         </Grid>

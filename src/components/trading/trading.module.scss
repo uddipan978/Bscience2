@@ -34,11 +34,13 @@
   width: 100%;
   float: right;
   background-position-x: 170%;
-
+  position: relative;
   background-color: rgb(16, 34, 60);
   margin-top: -100px;
   min-height: 110vh;
   padding-top: 20vh;
+
+  
 }
 
 .tokenomics {
@@ -67,4 +69,19 @@
   font-weight: bold;
   padding-bottom: 10px;
   border-bottom: 1px solid #f6d869;
+}
+
+.bg{
+  &_img{
+    &_1 {
+      position: absolute;
+    }
+    &_2 {
+      position: absolute;
+      z-index: 9;
+      left: -40%;
+      top: 0%;
+      width: 95%;
+    }
+  }
 }

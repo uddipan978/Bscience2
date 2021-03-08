@@ -29,7 +29,7 @@ export default class MyComponent extends Component {
 
     return (
       <div  >
-        <Grid>
+        <Grid className='chart' >
           <Grid item xl={5} lg={5} md={5} sm={5} xs={5}>
             <PieChart
               data={data}
@@ -38,23 +38,27 @@ export default class MyComponent extends Component {
               onMouseLeaveFromSector={this.handleMouseLeaveFromSector}
             />
           </Grid>
-          <Grid item xl={5} lg={5} md={6} sm={5} xs={5}>
+          <div className='pos-relative'>
             <div>
               {data.map((d, i) => (
-                <div key={i}>
+                <div className={`chats_lables ${d.label}`} key={i}>
                   <span style={{ background: d.color }} />
-                  <span
-                    style={{
-                      fontWeight:
-                        this.state.expandedSector == i ? "bold" : null,
-                    }}
+                  <div
+                    className='chart_lables_text'
+                    // style={{
+                    //   fontWeight:
+                    //     this.state.expandedSector == i ? "bold" : null,
+                    // }}
                   >
-                    {d.label} : {d.value}
-                  </span>
+                    {d.label} 
+                  </div>
+                  <div className='percent' >
+                  {d.value}
+                  </div>
                 </div>
               ))}
             </div>
-          </Grid>
+          </div>
         </Grid>
       </div>
     );

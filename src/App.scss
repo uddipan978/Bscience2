@@ -80,6 +80,7 @@ body::-webkit-scrollbar-thumb {
   .img {
     &_bg {
       position: absolute;
+      z-index: 99;
     }
   }
 }
@@ -132,6 +133,23 @@ body::-webkit-scrollbar-thumb {
   text-align: left;
   font-size: 16px;
   opacity: 0.7;
+}
+
+// chart
+
+.chart {
+  margin-top: 10pc;
+  margin-left: 1pc;
+
+  .pieChart_img {
+    width: 95%;
+    margin-top: 10%;
+  }
+}
+
+.pieChart_img {
+  width: 95%;
+  margin-top: 5%;
 }
 
 // road map
