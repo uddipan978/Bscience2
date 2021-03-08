@@ -1,0 +1,9 @@
+<svg id="Component_40_6" data-name="Component 40 – 6" xmlns="http://www.w3.org/2000/svg" width="42" height="44" viewBox="0 0 42 44">
+  <g id="Buy">
+    <g id="Group_35" data-name="Group 35">
+      <rect id="Rectangle_11" data-name="Rectangle 11" width="26" height="30" rx="13" transform="translate(10 8)" fill="rgba(0,0,0,0.68)"/>
+      <rect id="Rectangle_10" data-name="Rectangle 10" width="37" height="37" rx="18.5" fill="#323641"/>
+    </g>
+  </g>
+  <path id="Path_87" data-name="Path 87" d="M21.153,19.022a.473.473,0,0,1-.2-.4V8.5a.722.722,0,0,1,.2-.466L22.42,6.566V6.5H17.89l-3.4,8.593L10.628,6.5H5.967v.066l1.2,1.666a1.4,1.4,0,0,1,.333,1v7.326a2.134,2.134,0,0,1-.2,1.265L5.5,20.288v.066h4.8v-.066l-1.8-2.4a2.051,2.051,0,0,1-.2-1.265V9.962a1.077,1.077,0,0,1,.2.4l4.529,10.125h.066L17.492,9.5a7.666,7.666,0,0,0-.066,1.2v7.86a.607.607,0,0,1-.2.466l-1.333,1.265v.066h6.528v-.066l-1.265-1.265Z" transform="translate(4.5 5.5)" fill="#8c9eff"/>
+</svg>

@@ -1,0 +1,86 @@
+.centerBackground {
+  background: url(./../../Assets/HeroSectionImage.svg);
+  /* background-image: url('images/image.png'); */
+  background-repeat: no-repeat;
+  background-size: 50% 90%;
+  height: 100%;
+  width: 100%;
+}
+
+.h1Center {
+  font-size: 45pt;
+  text-align: left;
+  color: #f6d869;
+  font-weight: 500;
+}
+
+.h2Center {
+  font-size: 35pt;
+  text-align: left;
+  color: #f6d869;
+  font-weight: 500;
+}
+
+.h3Center {
+  font-size: 25pt;
+  text-align: left;
+  color: #ffffff;
+  font-weight: 500;
+}
+
+.buttonCenter {
+  color: #f6d869;
+  background-color: #0c1b30;
+  font-size: 12px;
+  text-align: center;
+  font-family: "Poppins";
+  box-sizing: border-box;
+  width: 140px;
+  height: 35px;
+  padding: 7px;
+  border: 2px solid #64592f;
+  border-radius: 13px;
+  box-shadow: 0px 0px 10px -3px #f6d869;
+  margin: 0px 3px;
+  border-radius: 30px;
+}
+@media only screen and (max-width: 600px) {
+  .displaynonemobile {
+    display: none;
+  }
+  .centerBackground {
+    display: none;
+  }
+  .bg-img {
+    display: none;
+  }
+  .removeonWeb {
+    display: none;
+  }
+}
+@media only screen and (min-width: 600px) {
+  .removeonWeb {
+    display: none;
+  }
+  .displaynonemobile {
+    display: block;
+  }
+}
+
+.linkTextBtn {
+  border: 1px solid #f6d869 !important;
+}
+
+.header {
+  position: relative !important;
+  padding: 10rem 0px !important;
+  width: 100% !important;
+  overflow-x: hidden !important;
+
+  &_img {
+    position: absolute !important;
+    top: 0 !important;
+    right: -10% !important;
+    width: 55% !important;
+  }
+}

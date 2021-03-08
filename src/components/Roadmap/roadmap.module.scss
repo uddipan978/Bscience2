@@ -1,0 +1,77 @@
+.RoadmapMain {
+  min-height: 100%;
+  background-color: #10223c;
+  background-image: url(./../../Assets/RoadmapWave.svg);
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  position: relative;
+}
+
+.heading {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 55px;
+  text-align: center;
+  font-weight: 500;
+  color: #ffffff;
+  padding-bottom: 25px;
+  font-weight: bold;
+  position: relative;
+
+  &::after {
+    content: "";
+    display: block;
+    width: 100px;
+    height: 1px;
+    background-color: #f6d869;
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+
+.pCircle {
+  /* background-color:#fff; */
+  border: 10px solid #f6d869;
+  height: 100px;
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  width: 100px;
+  text-align: center;
+  margin: auto;
+  padding-top: 28px;
+  color: #ffffff;
+  font-size: 24px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.pText {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+}
+
+.mainText {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #e5e5e5aa;
+  font-size: 12px;
+  text-align: center;
+}
+
+.headerRoadmap {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  text-align: center;
+  font-weight: 500;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+.bodyTImeLine {
+  padding: 100px 0px;
+  display: flex;
+  justify-content: center !important;
+  align-items: center;
+}

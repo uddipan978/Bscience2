@@ -1,0 +1,17 @@
+.logoHeader {
+  width: 131pt;
+  height: 131pt;
+  /* position: fixed; */
+  position: relative;
+  top: -41px;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+  .logoHeader {
+    width: 71pt;
+    height: 71pt;
+    top: 0px;
+  }
+}

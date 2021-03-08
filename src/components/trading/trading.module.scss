@@ -1,0 +1,70 @@
+.tradingh1 {
+  font-size: 45px;
+  color: #f6d869;
+  font-family: "Poppins";
+  text-align: left;
+  margin-top: 300px;
+}
+
+@media only screen and (max-width: 600px) {
+  .tradingh1 {
+    margin-top: 500px;
+  }
+}
+
+.tradingtext {
+  margin-top: 30px;
+  font-size: 22px;
+  font-weight: lighter;
+  color: #ffffff;
+  font-family: "Poppins";
+  text-align: left;
+}
+
+.tradingtext span {
+  color: #f0b90b;
+}
+
+.tradingcenterBackground {
+  /* background: url(./../../Assets/Tradingbotimage.png); */
+  background-image: url("./../../Assets/Tradingbotimage.png");
+  background-repeat: no-repeat;
+  background-size: 80% 90%;
+  height: 100%;
+  width: 100%;
+  float: right;
+  background-position-x: 170%;
+
+  background-color: rgb(16, 34, 60);
+  margin-top: -100px;
+  min-height: 110vh;
+  padding-top: 20vh;
+}
+
+.tokenomics {
+  font-size: 35px;
+  font-family: "Poppins";
+  font-weight: 100;
+  color: #ffffff;
+  text-align: left;
+}
+
+.totalsupply {
+  font-size: 18px;
+  font-family: "Poppins";
+  font-weight: 100;
+  color: #ffffff;
+  text-align: left;
+  margin-top: 30px;
+}
+
+.numbers {
+  font-size: 70px;
+  font-family: "Poppins";
+  font-weight: 100;
+  color: #f6d869;
+  text-align: left;
+  font-weight: bold;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #f6d869;
+}
