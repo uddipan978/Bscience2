@@ -34,12 +34,12 @@ function Farm() {
       container
       xs={12}
       justify="center"
-       
+      style={{backgroundColor: '#10213b'}}
       className="pos-relative farm "
     >
       <img src={Bg} className="img_bg" />
 
-      <Grid item xs={6} style={{ zIndex: 999 }} >
+      <Grid item xs={12} md={6} style={{ zIndex: 999 }} >
         <p className={styles.textStyle}>
           YFScience is a new generation decentralised platform that enables
           different features for staking, lending, trading and coinvesting. YFSI

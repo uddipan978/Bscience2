@@ -16,9 +16,9 @@ function Ready() {
         <img src={Bg} className="bg_img_1" />
         <img src={Bg2} className="bg_img_2" />
 
-        <h1 className={styles.readyh1}> Ready </h1>
-        <p className={styles.readytext}> To start farming on BSC and Eth? </p>
-        <button className={styles.readybutton}> Join Now </button>
+        <h1 className={styles.readyh1} style={{zIndex: 999}} > Ready </h1>
+        <p className={styles.readytext} style={{zIndex: 999}} > To start farming on BSC and Eth? </p>
+        <button className={styles.readybutton} style={{zIndex: 999}} > Join Now </button>
       </Grid>
     </Grid>
   );

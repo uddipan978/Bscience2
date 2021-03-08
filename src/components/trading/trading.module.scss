@@ -4,11 +4,25 @@
   font-family: "Poppins";
   text-align: left;
   margin-top: 300px;
+  position: relative;
+
+  &::after {
+    content: '';
+    display: block;
+    width: 100px;
+    height: 2px ;
+    background-color: #f6d869;
+    position: absolute;
+    left: 50%;
+    bottom: -10px;
+    transform: translateX(-50%);
+  }
 }
 
 @media only screen and (max-width: 600px) {
   .tradingh1 {
-    margin-top: 500px;
+    margin-top: 200px;
+    text-align: center;
   }
 }
 
@@ -19,6 +33,11 @@
   color: #ffffff;
   font-family: "Poppins";
   text-align: left;
+
+  @media only screen and (max-width: 768px) {
+    text-align: center;
+    font-size: 16px;
+  }
 }
 
 .tradingtext span {
@@ -49,6 +68,9 @@
   font-weight: 100;
   color: #ffffff;
   text-align: left;
+  @media only screen and (max-width: 768px) {
+    text-align: center;
+  }
 }
 
 .totalsupply {
@@ -58,6 +80,10 @@
   color: #ffffff;
   text-align: left;
   margin-top: 30px;
+
+  @media only screen and (max-width: 768px) {
+    text-align: center;
+  }
 }
 
 .numbers {
@@ -69,6 +95,9 @@
   font-weight: bold;
   padding-bottom: 10px;
   border-bottom: 1px solid #f6d869;
+  @media only screen and (max-width: 768px) {
+    text-align: center;
+  }
 }
 
 .bg{

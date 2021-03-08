@@ -9,6 +9,10 @@
   opacity: 0.8;
   letter-spacing: 0.02em;
   z-index: 9999;
+
+  @media only screen and (max-width: 768px) {
+    font-size: 10pt;
+  }
 }
 
 .buttonCenter {

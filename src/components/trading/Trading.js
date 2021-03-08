@@ -23,7 +23,7 @@ function Trading() {
         <img src={bgCircleHolo} className={styles.bg_img_2} />
 
         <Grid item container xs={10}>
-          <Grid item xl={6} lg={6} md={6} sm={8} xs={10}>
+          <Grid item xl={6} lg={6} md={6} sm={11} xs={11}>
             <h1 className={styles.tradingh1}> Trading Bot</h1>
             <hr />
             <p className={styles.tradingtext}>

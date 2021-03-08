@@ -4,7 +4,8 @@
   box-sizing: border-box;
 }
 
-html {
+html,
+body {
   width: 100%;
   overflow-x: hidden;
 }
@@ -39,6 +40,7 @@ body::-webkit-scrollbar-thumb {
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 100%;
   }
 }
 // navbar
@@ -52,6 +54,10 @@ body::-webkit-scrollbar-thumb {
 .header {
   position: relative;
   padding: 10rem 0px 0px;
+
+  @media only screen and (max-width: 768px) {
+    padding: 0rem 0px 0px;
+  }
 
   &_img {
     position: absolute !important;
@@ -68,7 +74,23 @@ body::-webkit-scrollbar-thumb {
     width: 100px;
     height: 2px;
     background-color: #f6d869;
-    margin: 250% 0px 0px;
+    margin: 10% 0px 0px;
+
+    @media only screen and (max-width: 768px) {
+      margin: 30% 0px 0px;
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .desktop-only {
+    display: none !important;
+  }
+}
+
+@media only screen and (min-width: 769px) {
+  .mobile-only {
+    display: none !important;
   }
 }
 
@@ -81,6 +103,11 @@ body::-webkit-scrollbar-thumb {
     &_bg {
       position: absolute;
       z-index: 99;
+
+      @media only screen and (max-width: 768px) {
+        width: 100%;
+        height: 120vh;
+      }
     }
   }
 }
@@ -106,6 +133,12 @@ body::-webkit-scrollbar-thumb {
     position: absolute;
     top: -270px;
     left: -360px;
+
+    @media only screen and (max-width: 768px) {
+      top: -90px;
+      left: -360px;
+      width: 204%;
+    }
   }
 
   .chart_left {
@@ -160,22 +193,41 @@ body::-webkit-scrollbar-thumb {
   height: 2px;
   position: absolute;
 
+  @media only screen and (max-width: 768px) {
+    width: 30%;
+  }
+
   &.one {
     left: 10.5%;
     bottom: 46.5%;
     transform: rotate(-29deg);
+    @media only screen and (max-width: 768px) {
+      left: 34.5%;
+      bottom: 75.5%;
+      transform: rotate(90deg);
+    }
   }
 
   &.two {
     left: 29.2%;
     bottom: 47%;
     transform: rotate(29deg);
+    @media only screen and (max-width: 768px) {
+      left: 34.5%;
+      bottom: 59%;
+      transform: rotate(90deg);
+    }
   }
 
   &.three {
     left: 47.5%;
     bottom: 47%;
     transform: rotate(-29deg);
+    @media only screen and (max-width: 768px) {
+      left: 34.5%;
+      bottom: 41%;
+      transform: rotate(90deg);
+    }
   }
 
   &.four {
@@ -183,6 +235,11 @@ body::-webkit-scrollbar-thumb {
     left: 66%;
     bottom: 49%;
     transform: rotate(29deg);
+    @media only screen and (max-width: 768px) {
+      left: 34.5%;
+      bottom: 24%;
+      transform: rotate(90deg);
+    }
   }
 
   &.five {
@@ -206,6 +263,14 @@ body::-webkit-scrollbar-thumb {
         right: 35%;
         top: 0%;
         z-index: 10;
+
+        @media only screen and (max-width: 768px) {
+          position: absolute;
+          right: 25%;
+          top: 25%;
+          z-index: 10;
+          width: 100%;
+        }
       }
 
       &_2 {
@@ -214,6 +279,15 @@ body::-webkit-scrollbar-thumb {
         right: -20%;
         height: 101%;
         z-index: 10;
+
+        @media only screen and (max-width: 768px) {
+          position: absolute;
+          top: 0;
+          right: -51%;
+          height: 70%;
+          z-index: 10;
+          width: 100%;
+        }
       }
     }
   }
